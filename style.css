@@ -1530,7 +1530,6 @@ ul[role="tree"] {
   list-style: none;
   font-size: 120%;
 }
-
 [role="treeitem"].doc::before {
   content: url(../images/file.png);
 }

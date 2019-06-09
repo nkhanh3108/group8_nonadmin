@@ -79,7 +79,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p>Login now to manage the blog</p>
+                            <p>Login now to post a new blog</p>
 							<br></br>
                         </div>
                         
@@ -96,13 +96,13 @@
                     <!-- Contact Form Area -->
                     <div class="col-12 col-md-10 col-lg-9">
                         <div class="contact-form">
-                            <h5>Login by admin account</h5>
+                            <h5>Login by member account</h5>
                             <!-- Contact Form -->
                             <form action="#" method="post" id="login-form">
                                 <div class="row">
                                     <div class="col-12 ">
                                         <div class="group">
-                                            <input type="text" name="name" id="name" value="admin" required>
+                                            <input type="text" name="name" id="name" value="member" required>
                                             <span class="highlight"></span>
                                             <span class="bar"></span>
                                             <label>Name</label>
@@ -111,7 +111,7 @@
                                    
                                     <div class="col-12">
                                         <div class="group">
-                                            <input type="password" name="password" id="password" value="admin" required>
+                                            <input type="password" name="password" id="password" value="member" required>
                                             <span class="highlight"></span>
                                             <span class="bar"></span>
                                             <label>Password</label>
@@ -207,7 +207,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 // onError:
                 // access denied cais gi day
             
-			 if (sessionStorage.getItem('user')=='admin'&&sessionStorage.getItem('pass')=='admin') {
+			 if (sessionStorage.getItem('user')=='member'&&sessionStorage.getItem('pass')=='member') {
 				   alert("Login Sucess");
 					
 			
@@ -215,7 +215,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				alert("Wrong username or password");
 			}
 			});
-			if (sessionStorage.getItem('user')=='admin'&&sessionStorage.getItem('pass')=='admin') {
+			if (sessionStorage.getItem('user')=='member'&&sessionStorage.getItem('pass')=='member') {
 				 
 					window.location.href = 'index.html';}
         });
